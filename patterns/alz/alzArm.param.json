@@ -41,11 +41,14 @@
     "policyAssignmentParametersCommon": {
       "value": {
         "ALZMonitorResourceGroupName": {
-          "value": "ad01monitor-alz"
+          "value": "ad01monitor-rg"
         },
         "ALZMonitorResourceGroupTags": {
           "value": {
-            "Project": "amba-monitoring"
+            "Project": "AMBA-monitoring",
+            "Team": "DIP INFRA",
+            "Owner": "Thibault MORI"
+
           }
         },
         "ALZMonitorResourceGroupLocation": {
