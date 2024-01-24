@@ -18,7 +18,7 @@
       "value": "Cdiscount-connectivity"
     },
     "LandingZoneManagementGroup": {
-      "value": "Cdiscount-landingzones"
+      "value": "Cdiscount-landing-zones"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -41,7 +41,7 @@
     "policyAssignmentParametersCommon": {
       "value": {
         "ALZMonitorResourceGroupName": {
-          "value": "ad01hubmgmt-hub"
+          "value": "ad01monitor-alz"
         },
         "ALZMonitorResourceGroupTags": {
           "value": {
