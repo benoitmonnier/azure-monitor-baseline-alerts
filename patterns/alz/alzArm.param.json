@@ -3,28 +3,28 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "Cdiscount"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "Cdiscount-platform"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "Cdiscount"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "Cdiscount-management"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "Cdiscount-connectivity"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "Cdiscount-landingzones"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
     },
     "enableAMBAIdentity": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBALandingZone": {
       "value": "Yes"
@@ -41,7 +41,7 @@
     "policyAssignmentParametersCommon": {
       "value": {
         "ALZMonitorResourceGroupName": {
-          "value": "rg-amba-monitoring-001"
+          "value": "ad01hubmgmt-hub"
         },
         "ALZMonitorResourceGroupTags": {
           "value": {
@@ -49,14 +49,14 @@
           }
         },
         "ALZMonitorResourceGroupLocation": {
-          "value": "eastus"
+          "value": "francecentral"
         }
       }
     },
     "policyAssignmentParametersServiceHealth": {
       "value": {
         "ALZMonitorActionGroupEmail": {
-          "value": "action@mail.com"
+          "value": "benoit.monnier@ext.cdiscount.com"
         },
         "ResHlthUnhealthyAlertState": {
           "value": "true"
